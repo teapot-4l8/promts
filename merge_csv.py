@@ -201,9 +201,9 @@ def main():
     主函数
     """
     # 配置路径
-    base_path = '/aaa'  # 修改为你的数据文件夹路径
-    json_config_path = '/aaa/站点变量.json'  # 修改为你的JSON配置文件路径
-    output_path = '/aaa/merged_timeseries_data.csv'  # 输出文件路径
+    base_path = 'F:/自动化导出数据'  # 修改为你的数据文件夹路径
+    json_config_path = 'F:/自动化导出数据/站点变量.json'  # 修改为你的JSON配置文件路径
+    output_path = 'F:/自动化导出数据/merged_timeseries_data.csv'  # 输出文件路径
     year = 2022  # 数据年份
 
     print("=" * 60)
